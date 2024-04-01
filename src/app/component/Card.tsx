@@ -15,19 +15,19 @@ export default function Card({
     return(
     <>
         <div className='flex justify-center'>
-            <div className='shadow-black shadow-md w-[258px] h-[511px] bg-[#3B3E47] p-3'>
+            <div className='shadow-gray-300 shadow-md w-[258px] h-[511px] bg-[#FFFFFF] p-3'>
                 <div>
                     <img src={src} alt="" className='h-[385px] object-cover' />
                 </div>
-                <div className='text-[#DFDFDF] font-bodyFont text-lg pb-2 pt-2'>{title}</div>
-                <div className='text-white bg-[#292B32] p-3 flex'>
+                <div className='text-black font-bodyFont text-lg pb-2 pt-2'>{title}</div>
+                <div className='text-white bg-[#F7F7F8] p-3 flex'>
                     <div className='flex flex-col pr-[50px]'>
-                        <span className='text-xs font-bodyFont text-[#DFDFDF]'>Total Events</span>
-                        <span>{totalevents}</span>
+                        <span className='text-xs font-bodyFont text-[#525965]'>Total Events</span>
+                        <span className="text-black">{totalevents}</span>
                     </div>
                     <div className='flex flex-col'>
-                        <span className='text-xs font-bodyFont text-[#DFDFDF]'>Sports</span>
-                        <span>{sport}</span>
+                        <span className='text-xs font-bodyFont text-[#525965]'>Sports</span>
+                        <span className="text-black">{sport}</span>
                     </div>
                 </div>
             </div>
